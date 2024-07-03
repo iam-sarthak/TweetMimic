@@ -17,9 +17,9 @@ const TweetOutput = React.forwardRef(({ tweetData }, ref) => {
             <p>{tweetData.body}</p>
           </div>
         </div>
-        <div className="tweet-img-wrap">
+        {/* <div className="tweet-img-wrap">
           <img src="" alt="" className="tweet-img"></img>
-        </div>
+        </div> */}
         <div className="tweet-info-counts">
           <div className="comments">
             <svg

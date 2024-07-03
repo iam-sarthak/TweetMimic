@@ -11,7 +11,7 @@ const Home = () => {
     img: "",
     name: "sarthak",
     username: "sarmittal",
-    body: "hwllo how are you",
+    body: "hello how are you",
     time: "time",
     retweet: "10k",
     qtweet: "100K",
