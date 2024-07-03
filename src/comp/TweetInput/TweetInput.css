@@ -1,0 +1,41 @@
+.tweetinput{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 15px 25px;
+    gap: 10px;
+}
+input{
+    border: 2px black;
+    border-style: dashed;
+    background-color: #E1E8ED;
+    padding: 5px;
+    width: 100%;
+}
+.tbody{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.tuser{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.tuserid{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tlike{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.tlikeblock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

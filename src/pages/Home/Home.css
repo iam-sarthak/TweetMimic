@@ -1,0 +1,26 @@
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1DA1F2;
+    flex-direction: column;
+    
+}
+.tweetcard{
+    width: 30%;
+}
+
+.output{
+    display: flex;
+    flex-direction: row;
+    background-color: #AAB8C2;
+    width: 30%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.output button{
+    background-color: #1DA1F2;
+    padding: 10px 20px;
+}
