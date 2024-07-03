@@ -26,6 +26,7 @@ const Home = () => {
 
   const changeState = () => {
     crtState === "edit" ? setCrtState("output") : setCrtState("edit");
+    console.log(tweetData);
   };
 
   return (

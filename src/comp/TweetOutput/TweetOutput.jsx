@@ -7,7 +7,7 @@ const TweetOutput = React.forwardRef(({ tweetData }, ref) => {
       <div className="tweet-wrap">
         <div className="tweet-header">
           <img
-            src="https://pbs.twimg.com/profile_images/1012717264108318722/9lP-d2yM_400x400.jpg"
+            src={tweetData.img}
             alt=""
             className="avator"
           ></img>

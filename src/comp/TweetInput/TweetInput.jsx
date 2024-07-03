@@ -1,14 +1,12 @@
 import React, { useState } from 'react'
 import "./TweetInput.css"
 const TweetInput = ({tweetData, setTweetData}) => {
-
-
   return (
     <div className='tweetinput'>
         <div className="tbody">
             <div className="tuser">
                 <div className="tuserimg">
-                    <input type='image' />
+                    <input type='file' onChange={(e) => setTweetData({ ...tweetData, img: e.target.value })} />
                 </div>
                 <div className="tuserid">
                     <input type="text" value={tweetData.name} onChange={(e) => setTweetData({ ...tweetData, name: e.target.value })} />
